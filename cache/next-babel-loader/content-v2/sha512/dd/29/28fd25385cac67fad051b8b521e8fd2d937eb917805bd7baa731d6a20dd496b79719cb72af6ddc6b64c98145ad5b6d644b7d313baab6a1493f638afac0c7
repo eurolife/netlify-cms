@@ -1,0 +1,1 @@
+{"ast":null,"code":"import config from \"../../config.json\";\nexport default config;","map":null,"metadata":{},"sourceType":"module"}
