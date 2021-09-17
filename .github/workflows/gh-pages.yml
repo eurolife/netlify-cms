@@ -32,11 +32,11 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - run: npm install --frozen-lockfile
-      - run: npm run build
+      - run: npm run export
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./.next
+          publish_dir: ./dist
