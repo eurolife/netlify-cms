@@ -3,7 +3,7 @@ name: GitHub Pages Netlify CMS
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
 
 jobs:
