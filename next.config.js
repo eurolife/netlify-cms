@@ -1,4 +1,5 @@
 module.exports = ({
+  assetPrefix: '/netlify-cms/',
   pageExtensions: ["tsx"],
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     config.module.rules.push(
