@@ -1,8 +1,8 @@
 backend:
-  name: google
-  branch: gh-pages
+  name: github
+  branch: master
   repo: eurolife/netlify-cms
-  base_url: http://localhost:3000
+  base_url: http://ec2-18-170-77-199.eu-west-2.compute.amazonaws.com
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
