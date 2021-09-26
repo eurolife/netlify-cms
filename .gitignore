@@ -1,4 +1,5 @@
-node_modules
-.git
-.next
-dist
+/node_modules
+/.git
+/.next
+/dist
+/.DS_Store
