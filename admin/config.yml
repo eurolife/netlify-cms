@@ -2,7 +2,7 @@ backend:
   name: github
   branch: master
   repo: eurolife/netlify-cms
-  base_url: http://ec2-18-170-77-199.eu-west-2.compute.amazonaws.com
+  base_url: https://heliotrope-marred-pansy.glitch.me
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
