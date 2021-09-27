@@ -12,7 +12,7 @@ module.exports = withPlugins([
         strip: true,
         verbose: true,
       },
-      imagesPublicPath: '/wallisconsultancy/_next/static/images/',
+      imagesPublicPath: '/netlify-cms/_next/static/images/',
     }
   ],
   {
